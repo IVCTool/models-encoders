@@ -1,0 +1,5 @@
+apply from: "./.shared/libraries.gradle"
+
+project.group = 'io.github.ivctool'
+project.version = "${modelEncoderVersion}"
+apply from: "./.shared/commons.gradle"

@@ -1,0 +1,16 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+    id 'maven'
+}
+
+dependencies {
+    compileOnly 	libraries.slf4j_api
+
+    compileOnly 	libraries.logback_classic
+    compileOnly 	libraries.logback_core
+
+    compileOnly 	libraries.slf4j_jcl_over_slf4j
+    compileOnly 	libraries.slf4j_jul_to_slf4j
+    compileOnly 	libraries.slf4j_log4j_over_slf4j
+}
